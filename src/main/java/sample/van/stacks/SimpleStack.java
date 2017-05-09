@@ -1,6 +1,5 @@
 package sample.van.stacks;
 
-import akka.dispatch.Futures;
 import sample.van.common.Element;
 
 public class SimpleStack implements IStack<Integer> {
