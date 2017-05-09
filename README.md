@@ -6,7 +6,7 @@ IStack - interface, with 2 simple methods: push and pop
 
 SimpleStack - simple implementation of IStack. This implementation is not thread safe.
 
-UnblockStack - thread-safe implementation based on SAP algorithm.
+UnblockStack - thread-safe implementation based on CAS algorithm.
 
 BlockingStack - synchronized implementation 
 

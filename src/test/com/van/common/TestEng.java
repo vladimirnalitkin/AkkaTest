@@ -88,8 +88,8 @@ public class TestEng {
                     } catch (Exception e) {
                         throw new IllegalStateException(e);
                     }
-                })
-                .forEach(System.out::println);
+                });
+                //.forEach(System.out::print);
     }
 }
 
